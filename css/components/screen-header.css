@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
-    padding-top: 50px;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    
 }
 
 .screen-header__title {
@@ -13,4 +14,47 @@
 
 .screen-header__icon span{
     margin-left: 20px;
+    position: relative;
+}
+
+
+@keyframes rotatecog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icon .fa-gear:hover {
+    animation: rotatecog 1s linear infinite;
+}
+
+
+.screen-header__dot {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 65px;
+    bottom: 25px;
+}
+
+
+.screen-header__dot2 {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 110px;
+    bottom: 25px;
 }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat with JS Screen</title>
+</head>
+<body id="chat-screen">
+    <div class="startus-bar">
+        <div class="status-bar__column">
+            <span>NO Service</span>
+              <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-three-quarters"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+  
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+            
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">이 재성</h1>
+           
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+     <div class="chat__timestamp">
+        일요일 9월 어느날...
+     </div>
+
+
+
+     <div class="message-row">
+        <img src="screenshots/제주도.jpg">
+        <div class="message-row__content">
+            <span class="message__author">제주도</span>
+            <div class="message__info">
+                <span class="message__bubble">언제오냐?</span>
+                <span class="message__time">12:13</span>
+            </div>
+        </div>
+     </div>
+
+     <div class="message-row message-row--own">
+        <div class="message-row__content">
+            <div class="message__info">
+                <span class="message__bubble">기다려 곧간다...</span>
+                <span class="message__time">12:49</span>
+            </div>
+        </div>
+     </div>
+     
+    </main>
+   
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-solid fa-square-plus fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="메세지 입력하세요...">
+            <i class="fa-regular fa-face-smile-wink fa-2x"></i>
+            <button>
+            <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+
+    <div id="no-mobile">
+        <span>너 화면이너무 크다 좀 줄여라 ㅠㅠ</span>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/c7ebc4b9fa.js" crossorigin="anonymous"
+    ></script>
+</body>
+</html>

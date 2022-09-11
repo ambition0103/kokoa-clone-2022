@@ -1,5 +1,6 @@
 
 .startus-bar {
+    /*position: fixed; 이거 삭제함 */
     position: fixed;
     width: 100%;
     display: flex;
